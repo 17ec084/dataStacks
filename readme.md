@@ -4,9 +4,9 @@
 
 # データの復元の仕方
 1. レポジトリの中身をすべて同じローカルフォルダにダウンロードする。  
-2. [ファイル分割プログラムのソースファイル](https://github.com/17ec084/fileSplitter/fileSplitter.c)を同じフォルダにダウンロードする。  
+2. [ファイル分割プログラムのソースファイル](https://github.com/17ec084/fileSplitter/filesplitter.c)を同じフォルダにダウンロードする。  
 3. gccをインストールし、パスも通す。  
-4. 1、2のフォルダにてCUIを起動し、 `gcc fileSplitter.c -o fileSplitter` を実行する。  
-5. そのままCUIで `fileSplitter cosΦαβ_by_A.fig merge` を実行する。  
+4. 1、2のフォルダにてCUIを起動し、 `gcc filesplitter.c -o filesplitter` を実行する。  
+5. そのままCUIで `filesplitter cosΦαβ_by_A.fig merge` を実行する。  
 6. しばらく待つと、同じフォルダにcosΦαβ_by_A.figが生成される。  
 7. matlabで起動する。
